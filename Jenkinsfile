@@ -6,7 +6,7 @@ pipeline {
         EC2_KEY  = "/var/jenkins_home/.ssh/id_rsa"
 
         APP_DIR  = "/home/ubuntu/app"
-        APP_NAME = "kenkins_test-0.0.1-SNAPSHOT.jar"
+        APP_NAME = "jenkins_test-0.0.1-SNAPSHOT.jar"
         APP_PORT = "9090"
 
         //  순차 배포 대상 서버
